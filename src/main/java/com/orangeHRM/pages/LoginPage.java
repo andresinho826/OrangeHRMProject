@@ -1,15 +1,23 @@
 package com.orangeHRM.pages;
 
 import com.orangeHRM.actiondriver.ActionDriver;
+import com.orangeHRM.base.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
     private ActionDriver actionDriver;
 
+    /*
     // Initializa the ActionDriver object by passing webdriver instance
     public LoginPage(WebDriver driver){
         this.actionDriver = new ActionDriver(driver);
+    }
+
+     */
+    //
+    public LoginPage(WebDriver driver){
+        this.actionDriver = BaseClass.getActionDriver();
     }
 
     //define locator using By class

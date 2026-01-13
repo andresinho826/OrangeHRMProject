@@ -4,7 +4,6 @@
     <test name="OrangeHRMTest">
         <classes >
             <class name="com.orangeHRM.test.DummyTest"></class>
-            <class name="com.orangeHRM.test.DummyTest2"></class>
             <class name="com.orangeHRM.test.LoginPageTest"></class>
 
         </classes>
