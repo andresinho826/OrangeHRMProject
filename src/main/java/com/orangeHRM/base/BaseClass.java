@@ -35,7 +35,7 @@ public class BaseClass {
         logger.info("config.properties file loaded");
     }
 
-    private void launchBrowser() {
+    private synchronized void launchBrowser() {
         // initialize the webdriver based on browser defined in config.propertiees file
         String browser = properties.getProperty("browser");
 
@@ -85,18 +85,22 @@ public class BaseClass {
     }
 
     @BeforeMethod
-    public void setup() throws IOException {
+    public synchronized void setup() throws IOException {
         System.out.println("Setting up webdriver for: " +this.getClass().getSimpleName());
         launchBrowser();
         configureBrowser();
         staticWait(2);
 
         logger.info("Webdriver initialized and browser Maximized");
+        /*
         logger.trace("this is a trace message");
         logger.error("this is an error message");
         logger.debug("this is a debug message");
         logger.fatal("this is a fatal message");
         logger.warn("this is a warn message");
+        logger.info("this is an info message");
+
+         */
 
         /*
         // initialize the action driver only once
@@ -112,7 +116,7 @@ public class BaseClass {
     }
 
     @AfterMethod
-    public void tearDown() {
+    public synchronized void tearDown() {
         if (getDriver() != null) {
             try {
                 //driver.quit();
