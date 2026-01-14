@@ -55,3 +55,77 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [a027c861d0d8e4d8b839203ef96d5655, findElement {value=//a[text()='Logout'], using=xpath}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55331}, goog:processID: 1144, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55331/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: a027c861d0d8e4d8b839203ef96d5655
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - this is an error message
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - this is a fatal message
+2026-01-13 20:11:33 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - this is an error message
+2026-01-13 20:11:33 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - this is a fatal message
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - this is an error message
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - this is a fatal message
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - unable click an element
+2026-01-13 20:11:46 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not visibleSession ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//div[@class='oxd-brand-banner']//img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57821}, goog:processID: 10788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57821/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-01-13 20:11:46 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not displayedSession ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {value=//div[@class='oxd-brand-banner']//img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57821}, goog:processID: 10788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57821/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-01-13 20:37:23 [main] ERROR BaseClass - this is an error message
+2026-01-13 20:37:23 [main] FATAL BaseClass - this is a fatal message
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - this is an error message
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - this is a fatal message
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - this is an error message
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - this is a fatal message
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - this is an error message
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - this is a fatal message
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - this is an error message
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - this is a fatal message
+2026-01-13 20:38:52 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not visibleExpected condition failed: waiting for visibility of element located by By.cssSelector: button[type='submit'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58310}, goog:processID: 8648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58310/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b53dbfe8d50d77e5ea52c8c0e18a2f
+2026-01-13 20:39:02 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - unable to get the text no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19b53dbfe8d50d77e5ea52c8c0e18a2f, findElement {value=button[type='submit'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58310}, goog:processID: 8648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58310/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19b53dbfe8d50d77e5ea52c8c0e18a2f
+2026-01-13 20:39:24 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Element is not visibleExpected condition failed: waiting for visibility of element located by By.cssSelector: button[type='submit'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 4828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 450e6a2e8dbbf6742ccd3a84c2a07fd5
+2026-01-13 20:39:34 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - unable to get the text no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [450e6a2e8dbbf6742ccd3a84c2a07fd5, findElement {value=button[type='submit'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 4828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 450e6a2e8dbbf6742ccd3a84c2a07fd5
+2026-01-13 20:40:09 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - Element is not visibleExpected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Logout'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 4828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 450e6a2e8dbbf6742ccd3a84c2a07fd5
+2026-01-13 20:40:19 [TestNG-test-OrangeHRMTest-2] ERROR ActionDriver - unable to get the text no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Logout']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [450e6a2e8dbbf6742ccd3a84c2a07fd5, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58409}, goog:processID: 4828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58409/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 450e6a2e8dbbf6742ccd3a84c2a07fd5

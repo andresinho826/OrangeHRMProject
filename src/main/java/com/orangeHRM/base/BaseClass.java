@@ -20,8 +20,10 @@ import java.util.concurrent.locks.LockSupport;
 
 public class BaseClass {
     protected static Properties properties;
-    protected static WebDriver driver;
-    private static ActionDriver actionDriver;
+    //protected static WebDriver driver;
+    //private static ActionDriver actionDriver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
     public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
     @BeforeSuite
@@ -38,15 +40,18 @@ public class BaseClass {
         String browser = properties.getProperty("browser");
 
         if (browser.equalsIgnoreCase("chrome")) {
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            driver.set(new ChromeDriver());
             logger.info("chromedriver initialized ");
 
         } else if (browser.equalsIgnoreCase("firefox")) {
-            driver = new FirefoxDriver();
+            //driver = new FirefoxDriver();
+            driver.set(new FirefoxDriver());
             logger.info("firefoxdriver initialized ");
 
         } else if (browser.equalsIgnoreCase("edge")) {
-            driver = new EdgeDriver();
+            //driver = new EdgeDriver();
+            driver.set(new EdgeDriver());
             logger.info("edgedriver initialized ");
 
         } else {
@@ -59,14 +64,20 @@ public class BaseClass {
         // configure browser setting such as, implicit wait maximaze, navegato to
         // implicit wait
         int implicitWait = Integer.parseInt(properties.getProperty("implicitWait"));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
+        logger.info("Implicit wait applied for: " + implicitWait + " seconds");
 
         // maximize the driver
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
+        getDriver().manage().window().maximize();
+        logger.info("Browser window maximized");
 
         // navigate to url
         try {
-            driver.get(properties.getProperty("url"));
+            //driver.get(properties.getProperty("url"));
+            getDriver().get(properties.getProperty("url"));
+            logger.info("Navigated to URL: " + properties.getProperty("url"));
         } catch (Exception e) {
             System.out.println("Failed to naviga to the URL: "+e.getMessage());
         }
@@ -87,25 +98,34 @@ public class BaseClass {
         logger.fatal("this is a fatal message");
         logger.warn("this is a warn message");
 
+        /*
         // initialize the action driver only once
         if(actionDriver == null){
             actionDriver = new ActionDriver(driver);
-            logger.info("ActionDriver instance is created");
+            logger.info("ActionDriver instance is created" + Thread.currentThread().getId());
         }
+
+         */
+        //Initialize actionDriver for each thread
+        actionDriver.set(new  ActionDriver(getDriver()));
+        logger.info("ActionDriver initialized is created for thread: " + Thread.currentThread().getId());
     }
 
     @AfterMethod
     public void tearDown() {
-        if (driver != null) {
+        if (getDriver() != null) {
             try {
-                driver.quit();
+                //driver.quit();
+                getDriver().quit();
             } catch (Exception e) {
                 System.out.println("unable to quit the driver: " +e.getMessage());
             }
         }
         logger.info("Webdriver instance is closed.");
-        driver=null;
-        actionDriver=null;
+        driver.remove();
+        actionDriver.remove();
+        //driver=null;
+        //actionDriver=null;
     }
 
 
@@ -125,24 +145,26 @@ public class BaseClass {
 
     // getter method for webdriver
     public static WebDriver getDriver() {
-        if(driver==null){
+        if(driver.get()==null){
             System.out.println("webdriver is not initialized");
             throw  new IllegalStateException("Webdriver ins not initialized");
         }
-        return driver;
+        return driver.get();
     }
 
     // getter method for actiondriver
     public static ActionDriver getActionDriver() {
-        if(actionDriver==null){
+        if(actionDriver.get()==null){
             System.out.println("actiondriver is not initialized");
             throw  new IllegalStateException("actiondriver ins not initialized");
         }
-        return actionDriver;
+        return actionDriver.get();
     }
 
     // driver setter method
-    public void setDriver(WebDriver driver){
+    public void setDriver(ThreadLocal<WebDriver> driver){
+        //BaseClass.driver = driver;
+        //this.driver.get() = driver;
         BaseClass.driver = driver;
     }
 

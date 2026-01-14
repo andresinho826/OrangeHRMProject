@@ -76,3 +76,97 @@
 2026-01-12 21:51:18 [main] INFO  ActionDriver - clicked an element-->Tag: p, Text: SIDHARTH SSIDHARTH S
 2026-01-12 21:52:01 [main] INFO  ActionDriver - clicked an element-->Tag: a, Text: Logout
 2026-01-12 21:52:03 [main] INFO  BaseClass - Webdriver instance is closed.
+2026-01-13 20:11:21 [main] INFO  BaseClass - config.properties file loaded
+2026-01-13 20:11:25 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:11:26 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:11:27 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - this is a trace message
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - this is a debug message
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - this is a warn message
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-13 20:11:32 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver instance is created30
+2026-01-13 20:11:33 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:11:33 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - this is a trace message
+2026-01-13 20:11:33 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - this is a debug message
+2026-01-13 20:11:33 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - this is a warn message
+2026-01-13 20:11:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on : adminnTag: input, Name: username
+2026-01-13 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-13 20:11:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on : ad1234Tag: input, Name: password
+2026-01-13 20:11:34 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - this is a trace message
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - this is a debug message
+2026-01-13 20:11:35 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - this is a warn message
+2026-01-13 20:11:46 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-13 20:11:46 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Webdriver instance is closed.
+2026-01-13 20:37:12 [main] INFO  BaseClass - config.properties file loaded
+2026-01-13 20:37:13 [main] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:37:13 [main] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-13 20:37:13 [main] INFO  BaseClass - Browser window maximized
+2026-01-13 20:37:21 [main] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-13 20:37:23 [main] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:37:23 [main] TRACE BaseClass - this is a trace message
+2026-01-13 20:37:23 [main] DEBUG BaseClass - this is a debug message
+2026-01-13 20:37:23 [main] WARN  BaseClass - this is a warn message
+2026-01-13 20:37:23 [main] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-13 20:37:23 [main] INFO  BaseClass - ActionDriver initialized is created for thread: 1
+2026-01-13 20:37:55 [main] INFO  BaseClass - config.properties file loaded
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Browser window maximized
+2026-01-13 20:37:56 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Browser window maximized
+2026-01-13 20:38:03 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - this is a trace message
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - this is a debug message
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - this is a warn message
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 22
+2026-01-13 20:38:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-13 20:38:17 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - this is a trace message
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - this is a debug message
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - this is a warn message
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized is created for thread: 24
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-13 20:38:19 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-13 20:38:24 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - this is a trace message
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - this is a debug message
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - this is a warn message
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized is created for thread: 23
+2026-01-13 20:38:26 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on : adminnTag: input, Name: username
+2026-01-13 20:38:27 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on : ad1234Tag: input, Name: password
+2026-01-13 20:38:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element-->Tag: button, Text: LoginLogin
+2026-01-13 20:38:29 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Text are matchingInvalid credentials equalInvalid credentials
+2026-01-13 20:38:29 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
+2026-01-13 20:38:30 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized 
+2026-01-13 20:38:30 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-13 20:38:30 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Browser window maximized
+2026-01-13 20:38:43 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - this is a trace message
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - this is a debug message
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - this is a warn message
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-13 20:38:45 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized is created for thread: 23
+2026-01-13 20:38:46 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-13 20:38:46 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-13 20:39:02 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-13 20:39:03 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is visible
+2026-01-13 20:39:03 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - Webdriver instance is closed.
+2026-01-13 20:39:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-13 20:39:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-13 20:39:34 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element-->Tag: p, Text: John DoeJohn Doe
+2026-01-13 20:40:19 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - clicked an element-->Tag: a, Text: Logout
+2026-01-13 20:40:22 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
