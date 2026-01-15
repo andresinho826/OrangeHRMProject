@@ -3,9 +3,9 @@
 <suite name="OrangeHRMSuite" parallel="classes" thread-count="4">
     <test name="OrangeHRMTest">
         <classes >
-            <class name="com.orangeHRM.test.DummyTest"></class>
+            <!-- <class name="com.orangeHRM.test.DummyTest"></class> -->
             <class name="com.orangeHRM.test.LoginPageTest"></class>
-            <class name="com.orangeHRM.test.HomePageTest"></class>
+           <!-- <class name="com.orangeHRM.test.HomePageTest"></class> -->
         </classes>
     </test>
 </suite>

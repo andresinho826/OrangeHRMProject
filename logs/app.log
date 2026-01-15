@@ -215,3 +215,29 @@
 2026-01-13 21:57:27 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
 2026-01-13 21:57:28 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is visible
 2026-01-13 21:57:28 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - clicked an element-->Tag: p, Text: John DoeJohn Doe
+2026-01-14 22:35:41 [main] INFO  BaseClass - config.properties file loaded
+2026-01-14 22:38:12 [main] INFO  BaseClass - config.properties file loaded
+2026-01-14 22:38:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - edgedriver initialized 
+2026-01-14 22:38:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-14 22:38:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-14 22:38:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 22:38:22 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-14 22:38:22 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-14 22:38:22 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 20
+2026-01-14 22:38:22 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminnTag: input, Name: username
+2026-01-14 22:38:22 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : ad1234Tag: input, Name: password
+2026-01-14 22:38:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: LoginLogin
+2026-01-14 22:38:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matchingInvalid credentials equalInvalid credentials
+2026-01-14 22:38:24 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-14 22:38:25 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - edgedriver initialized 
+2026-01-14 22:38:25 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-14 22:38:25 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-14 22:38:28 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 22:38:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-14 22:38:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-14 22:38:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 20
+2026-01-14 22:38:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-14 22:38:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-14 22:38:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-14 22:38:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-14 22:38:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: p, Text: manda usermanda user
