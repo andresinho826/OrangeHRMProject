@@ -1,6 +1,7 @@
 package com.orangeHRM.base;
 
 import com.orangeHRM.actiondriver.ActionDriver;
+import com.orangeHRM.utilities.ExtentManager;
 import com.orangeHRM.utilities.LoggerManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -33,26 +34,46 @@ public class BaseClass {
         FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
         properties.load(fis);
         logger.info("config.properties file loaded");
+
+        // Start the extent report
+        ExtentManager.getReporter();
+        logger.info("Extent report initialized");
     }
 
     private synchronized void launchBrowser() {
         // initialize the webdriver based on browser defined in config.propertiees file
         String browser = properties.getProperty("browser");
+        boolean headless = Boolean.parseBoolean(properties.getProperty("headlessMode", "false"));
 
         if (browser.equalsIgnoreCase("chrome")) {
-            //driver = new ChromeDriver();
-            driver.set(new ChromeDriver());
-            logger.info("chromedriver initialized ");
+            org.openqa.selenium.chrome.ChromeOptions options = new org.openqa.selenium.chrome.ChromeOptions();
+            if (headless) {
+                options.addArguments("--headless");
+                options.addArguments("--disable-gpu");
+            }
+            options.addArguments("--start-maximized");
+            options.addArguments("--disable-blink-features=AutomationControlled");
+            driver.set(new ChromeDriver(options));
+            logger.info("chromedriver initialized (headless: " + headless + ")");
+            ExtentManager.registerDriver(getDriver());
 
         } else if (browser.equalsIgnoreCase("firefox")) {
-            //driver = new FirefoxDriver();
-            driver.set(new FirefoxDriver());
-            logger.info("firefoxdriver initialized ");
+            org.openqa.selenium.firefox.FirefoxOptions options = new org.openqa.selenium.firefox.FirefoxOptions();
+            if (headless) {
+                options.addArguments("--headless");
+            }
+            driver.set(new FirefoxDriver(options));
+            logger.info("firefoxdriver initialized (headless: " + headless + ")");
+            ExtentManager.registerDriver(getDriver());
 
         } else if (browser.equalsIgnoreCase("edge")) {
-            //driver = new EdgeDriver();
-            driver.set(new EdgeDriver());
-            logger.info("edgedriver initialized ");
+            org.openqa.selenium.edge.EdgeOptions options = new org.openqa.selenium.edge.EdgeOptions();
+            if (headless) {
+                options.addArguments("--headless");
+            }
+            driver.set(new EdgeDriver(options));
+            logger.info("edgedriver initialized (headless: " + headless + ")");
+            ExtentManager.registerDriver(getDriver());
 
         } else {
             throw new IllegalArgumentException("Browser Not Supported:" + browser);
@@ -89,7 +110,6 @@ public class BaseClass {
         System.out.println("Setting up webdriver for: " +this.getClass().getSimpleName());
         launchBrowser();
         configureBrowser();
-        staticWait(2);
 
         logger.info("Webdriver initialized and browser Maximized");
         /*
@@ -130,6 +150,7 @@ public class BaseClass {
         actionDriver.remove();
         //driver=null;
         //actionDriver=null;
+        ExtentManager.endTest();
     }
 
 

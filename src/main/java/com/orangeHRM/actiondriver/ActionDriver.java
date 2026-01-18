@@ -1,6 +1,7 @@
 package com.orangeHRM.actiondriver;
 
 import com.orangeHRM.base.BaseClass;
+import com.orangeHRM.utilities.ExtentManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -27,26 +28,43 @@ public class ActionDriver {
 
     // method to click element
     public void click(By by) {
-        String getElementDescription = getElementDescription(by);
         try {
             waitForElementToBeClickable(by);
-            driver.findElement(by).click();
-            logger.info("clicked an element-->" + getElementDescription + getText(by));
+            WebElement element = driver.findElement(by);
+            element.click();
+            logger.info("Clicked on element successfully");
         } catch (Exception e) {
-            System.out.println("Unable to click element" + e.getMessage());
-            logger.error("unable click an element");
+            logger.error("unable to click on element: {}", e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 
     // method to enter text into an input field
     public void enterText(By by, String value) {
-        try {
-            waitForElementToBeVisible(by);
-            driver.findElement(by).clear();
-            driver.findElement(by).sendKeys(value);
-            logger.info("Entered text on : {}"+ getElementDescription(by), value);
-        } catch (Exception e) {
-            logger.error("unable to enter the value: {}", e.getMessage());
+        int retries = 3;
+        int attempt = 0;
+
+        while (attempt < retries) {
+            try {
+                waitForElementToBeVisible(by);
+                WebElement element = driver.findElement(by);
+                element.clear();
+                element.sendKeys(value);
+                logger.info("Entered text successfully");
+                return; // Éxito, salir del método
+            } catch (Exception e) {
+                attempt++;
+                if (attempt < retries) {
+                    logger.warn("Enter text attempt {} failed, retrying...", attempt);
+                    try {
+                        Thread.sleep(300);
+                    } catch (InterruptedException ie) {
+                        Thread.currentThread().interrupt();
+                    }
+                } else {
+                    logger.error("Unable to enter text after {} attempts: {}", retries, e.getMessage());
+                }
+            }
         }
     }
 
@@ -65,16 +83,19 @@ public class ActionDriver {
     public boolean compareText(By by, String expectedText) {
         try {
             waitForElementToBeVisible(by);
-            String actualText = driver.findElement(by).getText();
+            WebElement element = driver.findElement(by);
+            String actualText = element.getText();
             if (expectedText.equals(actualText)) {
-                logger.info("Text are matching{} equal{}", actualText, expectedText);
+                logger.info("Text are matching: {} equal {}", actualText, expectedText);
+                ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"Compare Text", "Text matches: " + actualText);
                 return true;
             } else {
-                logger.error("Text are not matching" + actualText + " not equal" + expectedText);
+                logger.error("Text mismatch: " + actualText + " not equal " + expectedText);
+                ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"Compare Text", "Text mismatch: " + actualText);
                 return false;
             }
         } catch (Exception e) {
-            logger.error("unable to compare texts{}", e.getMessage());
+            logger.error("unable to compare texts: {}", e.getMessage());
         }
         return false;
     }
@@ -83,15 +104,16 @@ public class ActionDriver {
     public boolean isDisplayed(By by) {
         try {
             waitForElementToBeVisible(by);
-            boolean isDisplayed = driver.findElement(by).isDisplayed();
+            WebElement element = driver.findElement(by);
+            boolean isDisplayed = element.isDisplayed();
             if (isDisplayed) {
-                logger.info("Element is visible", getElementDescription(by));
-                return isDisplayed;
-            } else {
-                return isDisplayed;
+                logger.info("Element is visible");
+                ExtentManager.logStep("Element is visible");
+                return true;
             }
+            return false;
         } catch (Exception e) {
-            logger.error("Element is not displayed{}", e.getMessage());
+            logger.error("Element is not displayed: {}", e.getMessage());
             return false;
         }
 
@@ -124,8 +146,9 @@ public class ActionDriver {
     private void waitForElementToBeClickable(By by) {
         try {
             wait.until(ExpectedConditions.elementToBeClickable(by));
+            logger.info("Element is clickable");
         } catch (Exception e) {
-            logger.error("element is not clickable{}", e.getMessage());
+            logger.warn("Timeout waiting for element to be clickable, proceeding anyway: {}", e.getMessage());
         }
     }
 
@@ -133,8 +156,9 @@ public class ActionDriver {
     private void waitForElementToBeVisible(By by) {
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            logger.info("Element is visible");
         } catch (Exception e) {
-            logger.error("Element is not visible{}", e.getMessage());
+            logger.warn("Timeout waiting for element to be visible, proceeding anyway: {}", e.getMessage());
         }
     }
 

@@ -241,3 +241,414 @@
 2026-01-14 22:38:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
 2026-01-14 22:38:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
 2026-01-14 22:38:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: p, Text: manda usermanda user
+2026-01-18 12:56:11 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 12:56:11 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 12:56:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 12:56:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 12:56:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 12:56:16 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 12:56:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 12:56:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 12:56:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 12:56:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminnTag: input, Name: username
+2026-01-18 12:56:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : ad1234Tag: input, Name: password
+2026-01-18 12:56:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: LoginLogin
+2026-01-18 12:56:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matchingInvalid credentials equalInvalid credentials
+2026-01-18 12:56:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 12:56:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 12:56:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 12:56:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 12:56:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 12:56:36 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 12:56:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 12:56:36 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 12:56:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-18 12:56:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-18 12:57:32 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 12:57:32 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 12:57:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 12:57:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 12:57:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 12:57:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 12:57:39 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 12:57:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 12:57:39 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 12:57:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminnTag: input, Name: username
+2026-01-18 12:57:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : ad1234Tag: input, Name: password
+2026-01-18 12:57:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: LoginLogin
+2026-01-18 12:57:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matchingInvalid credentials equalInvalid credentials
+2026-01-18 13:00:42 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:00:42 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:00:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 13:00:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 13:00:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:00:45 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:00:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:00:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-18 13:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-18 13:12:18 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:12:18 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:12:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 13:12:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 13:12:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:12:22 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:12:24 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:12:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:12:24 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 22
+2026-01-18 13:12:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-18 13:12:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-18 13:13:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-18 13:13:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:13:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:26:59 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:26:59 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:27:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 13:27:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 13:27:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:27:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:27:04 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:27:04 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-18 13:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-18 13:28:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-18 13:28:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:28:28 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:40:07 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:40:08 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:40:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized 
+2026-01-18 13:40:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 10 seconds
+2026-01-18 13:40:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:40:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:40:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:40:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:40:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:40:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : adminTag: input, Name: username
+2026-01-18 13:40:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text on : admin123Tag: input, Name: password
+2026-01-18 13:41:37 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-18 13:41:37 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:41:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:51:24 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:51:25 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:51:26 [main] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 13:51:26 [main] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 13:51:26 [main] INFO  BaseClass - Browser window maximized
+2026-01-18 13:51:28 [main] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:51:28 [main] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:51:28 [main] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:51:28 [main] INFO  BaseClass - ActionDriver initialized is created for thread: 1
+2026-01-18 13:51:28 [main] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:51:28 [main] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:51:30 [main] INFO  ActionDriver - clicked an element-->Tag: button, Text: Login
+2026-01-18 13:54:08 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:54:08 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:54:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 13:54:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 13:54:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:54:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:54:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:54:11 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:54:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:54:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:54:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:54:14 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:54:14 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:54:40 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:54:40 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:54:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 13:54:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 13:54:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:54:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:54:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:54:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:54:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:54:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:54:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:54:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:54:46 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:55:39 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:55:39 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:55:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 13:55:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 13:55:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:55:42 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:55:42 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:55:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:55:42 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:55:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:55:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:55:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:55:44 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:56:33 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:56:33 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:56:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 13:56:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 13:56:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:56:36 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:56:36 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:56:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:56:36 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 20
+2026-01-18 13:56:37 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:56:37 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:56:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:56:39 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 13:58:17 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 13:58:17 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 13:58:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 13:58:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 13:58:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 13:58:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 13:58:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 13:58:20 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 13:58:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 13:58:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:58:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 13:58:29 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 13:58:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:10:01 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 14:10:01 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 14:10:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:10:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:10:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:10:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:10:12 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 1 failed, retrying... Error: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ebce1a3f5f3dd081a1fa252847f9754, findElement {value=button[type='submit'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52870}, goog:processID: 13156, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52870/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ebce1a3f5f3dd081a1fa252847f9754
+2026-01-18 14:10:38 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 14:10:39 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 14:10:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:10:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:10:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:10:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:10:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:10:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:10:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 14:10:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:10:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:10:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:10:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:10:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:10:47 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 1 failed, retrying... Error: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b32f478163b8b552d427c4cd8b262a7, findElement {using=css selector, value=button[type='submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52923}, goog:processID: 6972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52923/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b32f478163b8b552d427c4cd8b262a7
+2026-01-18 14:11:04 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be clickable, proceeding anyway: Expected condition failed: waiting for element to be clickable: By.cssSelector: button[type='submit'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52923}, goog:processID: 6972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52923/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b32f478163b8b552d427c4cd8b262a7
+2026-01-18 14:11:09 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 2 failed, retrying... Error: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b32f478163b8b552d427c4cd8b262a7, findElement {using=css selector, value=button[type='submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52923}, goog:processID: 6972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52923/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b32f478163b8b552d427c4cd8b262a7
+2026-01-18 14:11:25 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be clickable, proceeding anyway: Expected condition failed: waiting for element to be clickable: By.cssSelector: button[type='submit'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52923}, goog:processID: 6972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52923/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b32f478163b8b552d427c4cd8b262a7
+2026-01-18 14:11:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:11:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:11:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:19:16 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 14:19:16 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 14:19:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:19:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:19:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:19:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:19:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:19:20 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:19:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 14:19:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:19:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:19:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:19:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:19:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:19:31 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 1 failed, retrying... Error: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [314d1108865006d3bc16c36147f5a787, findElement {value=button[type='submit'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53372}, goog:processID: 10872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53372/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 314d1108865006d3bc16c36147f5a787
+2026-01-18 14:19:48 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be clickable, proceeding anyway: Expected condition failed: waiting for element to be clickable: By.cssSelector: button[type='submit'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53372}, goog:processID: 10872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53372/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 314d1108865006d3bc16c36147f5a787
+2026-01-18 14:19:53 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 2 failed, retrying... Error: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [314d1108865006d3bc16c36147f5a787, findElement {value=button[type='submit'], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53372}, goog:processID: 10872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53372/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 314d1108865006d3bc16c36147f5a787
+2026-01-18 14:20:09 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be clickable, proceeding anyway: Expected condition failed: waiting for element to be clickable: By.cssSelector: button[type='submit'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53372}, goog:processID: 10872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53372/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 314d1108865006d3bc16c36147f5a787
+2026-01-18 14:20:15 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:20:15 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:20:15 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:22:29 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 14:22:29 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 14:22:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:22:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:22:31 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:22:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:22:34 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:22:35 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 1 failed, retrying... Error: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edb41024ad53793ba80671290d7436f9, getElementTagName {id=f.B27F58209B46685FEB7AB8185A4A0344.d.6A5792F67C09D40186B3E9A4717D1C34.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53543}, goog:processID: 12940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53543/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (edb41024ad53793ba80671290d7436f9)] -> xpath: //button[@type='submit']]
+Session ID: edb41024ad53793ba80671290d7436f9
+2026-01-18 14:22:51 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be clickable, proceeding anyway: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submit'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53543}, goog:processID: 12940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53543/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edb41024ad53793ba80671290d7436f9
+2026-01-18 14:22:57 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Click attempt 2 failed, retrying... Error: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edb41024ad53793ba80671290d7436f9, findElement {value=//button[@type='submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53543}, goog:processID: 12940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53543/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edb41024ad53793ba80671290d7436f9
+2026-01-18 14:23:13 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be clickable, proceeding anyway: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submit'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53543}, goog:processID: 12940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53543/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edb41024ad53793ba80671290d7436f9
+2026-01-18 14:23:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:23:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:23:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:30:09 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 14:30:09 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 14:30:10 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:30:10 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:30:10 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:30:15 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:30:15 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:30:15 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:30:15 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-18 14:30:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:30:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:30:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:30:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:30:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:30:16 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-18 14:30:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:30:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:30:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:31:33 [main] INFO  BaseClass - config.properties file loaded
+2026-01-18 14:31:33 [main] INFO  BaseClass - Extent report initialized
+2026-01-18 14:31:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:31:34 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:31:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:31:34 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:31:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:31:34 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Browser window maximized
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 24
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized is created for thread: 25
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:31:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:31:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-18 14:31:39 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:39 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Text are matching: Invalid credentials equal Invalid credentials
+2026-01-18 14:31:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:31:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:31:40 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:31:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 24
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-18 14:31:41 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Browser window maximized
+2026-01-18 14:31:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:31:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-18 14:31:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-18 14:31:44 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-18 14:31:44 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-18 14:31:44 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-18 14:31:44 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized is created for thread: 25
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-18 14:31:45 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
+2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.

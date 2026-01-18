@@ -23,7 +23,7 @@ public class LoginPage {
     //define locator using By class
     private By userNameField = By.name("username");
     private By passwordField = By.cssSelector("input[type='password']");
-    private By loginButton = By.cssSelector("button[type='submit']");
+    private By loginButton = By.xpath("//button[@type='submit']");  // ✅ Cambio: XPath en lugar de CSS selector
     private By errorMessage = By.xpath("//p[text()='Invalid credentials']");
 
     // method to perform login
