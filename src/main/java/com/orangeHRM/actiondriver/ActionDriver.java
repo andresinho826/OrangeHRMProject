@@ -91,7 +91,7 @@ public class ActionDriver {
                 return true;
             } else {
                 logger.error("Text mismatch: " + actualText + " not equal " + expectedText);
-                ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"Compare Text", "Text mismatch: " + actualText);
+                ExtentManager.logFailure(BaseClass.getDriver(),"Test Comparison Failed! ", "Text mismatch: " + actualText);
                 return false;
             }
         } catch (Exception e) {

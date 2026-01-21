@@ -36,8 +36,8 @@ public class BaseClass {
         logger.info("config.properties file loaded");
 
         // Start the extent report
-        ExtentManager.getReporter();
-        logger.info("Extent report initialized");
+        //ExtentManager.getReporter(); -- this line is moved to TestListener class
+        //logger.info("Extent report initialized");
     }
 
     private synchronized void launchBrowser() {
@@ -150,7 +150,7 @@ public class BaseClass {
         actionDriver.remove();
         //driver=null;
         //actionDriver=null;
-        ExtentManager.endTest();
+        //ExtentManager.endTest(); -- this line is moved to TestListener class
     }
 
 

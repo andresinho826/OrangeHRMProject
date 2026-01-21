@@ -652,3 +652,20 @@ Session ID: edb41024ad53793ba80671290d7436f9
 2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
 2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
 2026-01-18 14:31:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-20 23:12:52 [main] INFO  BaseClass - config.properties file loaded
+2026-01-20 23:12:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-20 23:12:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-20 23:12:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-20 23:12:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-20 23:12:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-20 23:12:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-20 23:12:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-20 23:12:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-20 23:12:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-20 23:13:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-20 23:13:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-20 23:13:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-20 23:13:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-20 23:13:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-20 23:13:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-20 23:13:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.

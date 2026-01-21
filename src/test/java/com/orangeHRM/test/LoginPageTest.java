@@ -23,7 +23,7 @@ public class LoginPageTest extends BaseClass {
 
     @Test
     public void verifyValidLoginTest() {
-        ExtentManager.startTest("verifyValidLoginTest");
+        //ExtentManager.startTest("verifyValidLoginTest"); // moved to TestListener class
         ExtentManager.logStep("Navigating to Login Page entering valid credentials");
         loginPage.login("admin", "admin123");
         ExtentManager.logStep("Verifying successful login by checking Admin tab visibility");
@@ -35,7 +35,7 @@ public class LoginPageTest extends BaseClass {
 
     @Test
     public void inValidLoginTest() {
-        ExtentManager.startTest("inValidLoginTest");
+        //ExtentManager.startTest("inValidLoginTest"); // moved to TestListener class
         ExtentManager.logStep("Navigating to Login Page entering invalid credentials");
         loginPage.login("adminn", "ad1234");
         ExtentManager.logStep("Verifying error message for invalid login attempt");

@@ -37,3 +37,13 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Screenshots
+screenshots/
+screenshots/**
+
+# Test reports
+ExtentReport/
+ExtentReport/**
+src/test/resources/ExtentReport/
+src/test/resources/ExtentReport/**

@@ -12,13 +12,13 @@ public class DummyTest extends BaseClass {
     @Test
     public void dummyTest(){
         //String title = driver.getTitle();
-        ExtentManager.startTest("Dummy test");
+        // ExtentManager.startTest("Dummy test"); // moved to TestListener class
         String title = getDriver().getTitle();
         ExtentManager.logStep("Verify Title Test");
         assert Objects.equals(title, "OrangeHRM") : "Test Failed - Title is not matching";
 
         System.out.println("Test passed - Title is Matching");
-        ExtentManager.logSkip("Test Skipped");
+        //ExtentManager.logSkip("Test Skipped");
         throw new SkipException("Skipping the test as part of testing");
     }
 

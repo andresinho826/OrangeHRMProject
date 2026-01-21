@@ -20,12 +20,11 @@ public class HomePageTest extends BaseClass {
 
     @Test
     public void verifyOrangeHRMLogo(){
-        ExtentManager.startTest("verify Home test");
+        //ExtentManager.startTest("verify Home test"); // moved to TestListener class
         ExtentManager.logStep("Navigating to Login Page entering valid credentials");
         loginPage.login("admin", "admin123");
         ExtentManager.logStep("Verifying successful login by checking Admin tab visibility");
         Assert.assertTrue(homePage.verifyOrangeHRMLogo(), "Logo is not visible");
-
         ExtentManager.logStep("Logged out successfully");
     }
 }
