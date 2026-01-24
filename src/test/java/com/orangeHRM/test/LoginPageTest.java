@@ -3,6 +3,7 @@ package com.orangeHRM.test;
 import com.orangeHRM.base.BaseClass;
 import com.orangeHRM.pages.HomePage;
 import com.orangeHRM.pages.LoginPage;
+import com.orangeHRM.utilities.DataProviders;
 import com.orangeHRM.utilities.ExtentManager;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -21,11 +22,11 @@ public class LoginPageTest extends BaseClass {
         homePage = new HomePage(getDriver());
     }
 
-    @Test
-    public void verifyValidLoginTest() {
+    @Test(dataProvider = "validLoginData", dataProviderClass = DataProviders.class)
+    public void verifyValidLoginTest(String username, String password) {
         //ExtentManager.startTest("verifyValidLoginTest"); // moved to TestListener class
         ExtentManager.logStep("Navigating to Login Page entering valid credentials");
-        loginPage.login("admin", "admin123");
+        loginPage.login(username, password);
         ExtentManager.logStep("Verifying successful login by checking Admin tab visibility");
         assertTrue(homePage.isAdminTabVisible(), "Admin tab should be visible after succesful login");
         homePage.logout();
@@ -33,11 +34,11 @@ public class LoginPageTest extends BaseClass {
         staticWait(2);
     }
 
-    @Test
-    public void inValidLoginTest() {
+    @Test(dataProvider = "invalidLoginData", dataProviderClass = DataProviders.class)
+    public void inValidLoginTest(String username, String password) {
         //ExtentManager.startTest("inValidLoginTest"); // moved to TestListener class
         ExtentManager.logStep("Navigating to Login Page entering invalid credentials");
-        loginPage.login("adminn", "ad1234");
+        loginPage.login(username, password);
         ExtentManager.logStep("Verifying error message for invalid login attempt");
         String expectedErrorMessage = "Invalid credentials";
         assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),
