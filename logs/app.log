@@ -669,3 +669,97 @@ Session ID: edb41024ad53793ba80671290d7436f9
 2026-01-20 23:13:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
 2026-01-20 23:13:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
 2026-01-20 23:13:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-24 14:17:27 [main] INFO  BaseClass - config.properties file loaded
+2026-01-24 14:17:29 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-24 14:17:29 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-24 14:17:29 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-24 14:17:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-24 14:17:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-24 14:17:32 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-24 14:17:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: username
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Browser window maximized
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: password
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: button, Text: Login
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-24 14:17:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: p, Text: Invalid credentials
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matching: Invalid credentials equal Invalid credentials
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-24 14:17:35 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized is created for thread: 22
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: username
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: password
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: button, Text: Login
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-24 14:17:36 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: span, Text: Admin
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: p, Text: manda111 user
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: a, Text: Logout
+2026-01-24 14:17:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-24 14:17:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:17:42 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
+2026-01-24 14:20:30 [main] INFO  BaseClass - config.properties file loaded
+2026-01-24 14:20:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-24 14:20:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-24 14:20:32 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-01-24 14:20:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-24 14:20:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-24 14:20:34 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-24 14:20:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-01-24 14:20:34 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: username
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Browser window maximized
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: password
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: button, Text: Login
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clickable
+2026-01-24 14:20:35 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:20:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: p, Text: Invalid credentials
+2026-01-24 14:20:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matching: Invalid credentials equal Invalid credentials
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - ActionDriver isntance is created
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized is created for thread: 22
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: username
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: input, Name: password
+2026-01-24 14:20:37 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Entered text successfully
+2026-01-24 14:20:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: button, Text: Login
+2026-01-24 14:20:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-24 14:20:38 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: span, Text: Admin
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is visible
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: p, Text: manda111 user
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Border applied to element successfullyTag: a, Classes: oxd-userdropdown-link
+2026-01-24 14:20:40 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is clickable
+2026-01-24 14:20:42 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Clicked on element successfully
+2026-01-24 14:20:44 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - Webdriver instance is closed.
