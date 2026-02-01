@@ -146,7 +146,7 @@ public class ActionDriver {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             applyBorder(by, "green");
             WebElement element = driver.findElement(by);
-            js.executeScript("arguments[0],scrollIntoView(true)", null);
+            js.executeScript("arguments[0].scrollIntoView(true)", null);
         } catch (Exception e) {
             applyBorder(by, "red");
             logger.error("unable to locate element{}", e.getMessage());

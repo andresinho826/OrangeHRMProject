@@ -300,3 +300,19 @@ Session ID: a931ba7e8768ec8730ece755a5514cb6
 2026-01-18 14:11:30 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element after 3 attempts
 2026-01-18 14:20:15 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element after 3 attempts
 2026-01-18 14:23:18 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element after 3 attempts
+2026-01-31 22:08:35 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 22:08:35 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text mismatch: aaron not equal yura
+2026-01-31 22:12:17 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 22:12:17 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text mismatch: aaron not equal yura
+2026-01-31 22:13:30 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 22:13:59 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:28:06 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:28:12 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:28:12 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text mismatch: aaron not equal yura
+2026-01-31 23:30:36 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:30:36 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text mismatch: aaron not equal yura
+2026-01-31 23:35:11 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:36:50 [main] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:36:50 [main] ERROR ActionDriver - unable to compare texts: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because the return value of "com.orangeHRM.utilities.ExtentManager.getTest()" is null
+2026-01-31 23:36:57 [main] ERROR ActionDriver - unable to compare texts: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because the return value of "com.orangeHRM.utilities.ExtentManager.getTest()" is null
+2026-01-31 23:48:16 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
