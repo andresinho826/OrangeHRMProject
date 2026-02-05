@@ -316,3 +316,21 @@ Session ID: a931ba7e8768ec8730ece755a5514cb6
 2026-01-31 23:36:50 [main] ERROR ActionDriver - unable to compare texts: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because the return value of "com.orangeHRM.utilities.ExtentManager.getTest()" is null
 2026-01-31 23:36:57 [main] ERROR ActionDriver - unable to compare texts: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because the return value of "com.orangeHRM.utilities.ExtentManager.getTest()" is null
 2026-01-31 23:48:16 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:54:36 [main] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-01-31 23:54:37 [main] ERROR ActionDriver - Text mismatch: aaron not equal yura
+2026-01-31 23:54:43 [main] ERROR ActionDriver - unable to compare texts: Cannot invoke "com.aventstack.extentreports.ExtentTest.pass(String)" because the return value of "com.orangeHRM.utilities.ExtentManager.getTest()" is null
+2026-02-04 20:43:34 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-02-04 20:43:35 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Text mismatch: aaron not equal yura
+2026-02-04 20:43:35 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to compare texts: stale element reference: stale element not found in the current frame
+  (Session info: chrome=144.0.7559.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0215a685add631088b7549640a80aaf, getElementText {id=f.6A1BDFBB0DE66E7B8A592AF390F5C50C.d.2970E4E7D579A648D372A125AE72946F.e.65}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50110}, goog:processID: 8184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50110/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e0215a685add631088b7549640a80aaf)] -> xpath: //div[@class='oxd-table-card']/div/div[4]]
+Session ID: e0215a685add631088b7549640a80aaf
+2026-02-04 20:46:05 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-02-04 20:46:40 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null
+2026-02-04 20:46:55 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - unable to locate elementCannot read the array length because "array" is null

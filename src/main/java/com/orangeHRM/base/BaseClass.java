@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.asserts.SoftAssert;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -26,6 +27,13 @@ public class BaseClass {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
     public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
+
+    protected ThreadLocal<SoftAssert> softAssertThreadLocal = ThreadLocal.withInitial(SoftAssert::new);
+
+    // Method to get SoftAssert instance for the current thread
+    public SoftAssert getSoftAssert() {
+        return softAssertThreadLocal.get();
+    }
 
     @BeforeSuite
     public void loadConfig() throws IOException {
