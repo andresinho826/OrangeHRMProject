@@ -26,9 +26,14 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         String testName = result.getMethod().getMethodName();
-        String failureMessage =  result.getThrowable().getMessage();
+        String failureMessage = result.getThrowable().getMessage();
         ExtentManager.logStep(failureMessage);
-        ExtentManager.logFailure(BaseClass.getDriver(),"Test failed","Test " + testName + " failed.");
+
+        if (!result.getTestClass().getName().toLowerCase().contains("api")) {
+            ExtentManager.logFailure(BaseClass.getDriver(), "Test failed", "Test " + testName + " failed.");
+        } else {
+            ExtentManager.logFailureAPI("Test passed Succesfully" + testName + " passed successfully.");
+        }
     }
 
     // triggered when a test is skipped
@@ -41,10 +46,10 @@ public class TestListener implements ITestListener {
     // triggered when a test starts
     @Override
     public void onTestStart(ITestResult result) {
-       String testName = result.getMethod().getMethodName();
-       // start logging in extent report
-       ExtentManager.startTest(testName);
-       ExtentManager.logStep("Test " + testName + " started.");
+        String testName = result.getMethod().getMethodName();
+        // start logging in extent report
+        ExtentManager.startTest(testName);
+        ExtentManager.logStep("Test " + testName + " started.");
     }
 
 
@@ -52,6 +57,13 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         String testName = result.getMethod().getMethodName();
-        ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"Test passed Succesfully","Test " + testName + " passed successfully.");
+
+        if (!result.getTestClass().getName().toLowerCase().contains("api")) {
+            ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "Test passed Succesfully", "Test " + testName + " passed successfully.");
+        } else {
+            ExtentManager.logStepValidationForAPI("Test passed Succesfully" + testName + " passed successfully.");
+        }
+
+
     }
 }

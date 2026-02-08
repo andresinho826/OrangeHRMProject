@@ -81,6 +81,11 @@ public class ExtentManager {
        getTest().pass(logMessage);
        // screenshot method
         attachScreenshot(driver, screenshotMessage);
+    }
+
+    // log a step validation for API testing where WebDriver is not available
+    public static void logStepValidationForAPI( String logMessage) {
+        getTest().pass(logMessage);
 
     }
 
@@ -93,6 +98,12 @@ public class ExtentManager {
         }
         //screenshot method
         attachScreenshot(driver, screenshotMessage);
+    }
+
+    // log a faliure for API testing where WebDriver is not available
+    public static void logFailureAPI( String logMessage ) {
+        String colorMessage = "<span style='color:red; font-weight:bold;'>" + logMessage + "</span>";
+        getTest().fail(colorMessage);
     }
 
 

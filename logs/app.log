@@ -1544,3 +1544,20 @@ Session ID: 548dd4ea85b7c4ae6018acf9a7ef600fTag: div, Text: yura
 2026-02-04 20:46:56 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Border applied to element successfullyTag: div, Text: mosquera
 2026-02-04 20:46:56 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Text are matching: mosquera equal mosquera
 2026-02-04 20:46:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.
+2026-02-08 18:20:44 [main] INFO  BaseClass - config.properties file loaded
+2026-02-08 18:20:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - chromedriver initialized (headless: false)
+2026-02-08 18:20:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Implicit wait applied for: 5 seconds
+2026-02-08 18:20:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Browser window maximized
+2026-02-08 18:20:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver initialized and browser Maximized
+2026-02-08 18:20:52 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - ActionDriver isntance is created
+2026-02-08 18:20:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized is created for thread: 21
+2026-02-08 18:20:57 [TestNG-test-OrangeHRMTest-1] WARN  ActionDriver - Timeout waiting for element to be visible, proceeding anyway: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2d61c0932cdc14a9cae4fb93ca4a23a, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\SOPEQU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62916}, goog:processID: 21064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62916/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2d61c0932cdc14a9cae4fb93ca4a23a
+2026-02-08 18:20:57 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - Webdriver instance is closed.

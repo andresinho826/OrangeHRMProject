@@ -90,6 +90,13 @@
             <version>1.7.36</version>
         </dependency>
 
+        <!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
